@@ -20,4 +20,24 @@ function verificarTime() {
 // Chamada da função para iniciar o processo
 verificarTime();
 
+function verificarTime() {
+  
+  var continuarPerguntando = true;
+
+  while (continuarPerguntando) {
+    
+    var respostaTime = prompt("Resolva a expressão 9x=6x=12");
+
+    
+    if (respostaTime.toLowerCase() === "4") {
+      alert("Parabéns!!! ");
+      continuarPerguntando = false; // Sai do loop após a resposta correta
+    } else {
+      alert("Não é isso! Tente novamente.");
+    }
+  }
+}
+
+// Chamada da função para iniciar o processo
+verificarTime();
   
