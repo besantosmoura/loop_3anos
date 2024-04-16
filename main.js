@@ -5,10 +5,10 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Resolva a expressão");
+    var respostaTime = prompt("Resolva a expressão 2x3(3+5)²-4x(2-1)³");
 
     
-    if (respostaTime.toLowerCase() === "beatriz") {
+    if (respostaTime.toLowerCase() === "124") {
       alert("Parabéns!!!, vamos dificultar um pouco agora!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
